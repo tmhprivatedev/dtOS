@@ -1,0 +1,1 @@
+/usr/bin/cc -ffreestanding -O2 -Wall -Wextra -mno-red-zone -mno-mmx -mno-sse -mno-sse2 -fno-stack-protector -fno-pic -mcmodel=kernel -T /home/timothy/dtOS/linker.ld -nostdlib -static -no-pie -Wl,--dependency-file=CMakeFiles/dtos_kernel.elf.dir/link.d CMakeFiles/dtos_kernel.elf.dir/kernel/kernel.c.o -o dtos_kernel.elf
